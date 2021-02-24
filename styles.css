@@ -1,0 +1,35 @@
+body {
+    background-color:#3C3744;
+}
+
+
+/* Nav bar styling */
+nav {
+    background-color: #2176AE;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+li a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #E5C3D1;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+li a:hover {
+    background-color: #090C9B;
+}
+
+/* introduction block styling */
+#introduction {
+    background-image: url(1048-1200x400.jpg);
+    height: 400px;
+    width: 100%;
+}
+
