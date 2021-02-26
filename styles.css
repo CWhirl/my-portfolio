@@ -77,4 +77,26 @@ li a:hover {
 }
 
 .project:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* Styling for project captions */
+.caption {
+    font-size: larger;
+    padding: 7% 0% 0% 5%;
+}
+
+/* Styling for footer bar */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 2%;
+    justify-content:space-evenly;
+    background-color: #007A79;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #C7CEDF;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
