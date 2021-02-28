@@ -107,9 +107,11 @@ li a:hover {
 /* Styling for project captions */
 .caption {
     font-size: larger;
-    padding: 7% 0% 0% 5%;
+    margin: 7% 2% 0% 70%;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     color: #002A29;
+    border:#4D2A16;
+    background-color: #976F4F;
 }
 
 /* Styling for footer bar */
