@@ -28,7 +28,7 @@ li a:hover {
 
 /* introduction block styling */
 #introduction {
-    background-image: url(sample_background.PNG);
+    background-image: url(204-1900x300.jpg);
     background-repeat:repeat-x;
     height: 200px;
     width: 100%;
@@ -69,21 +69,47 @@ li a:hover {
     background-image: url(701-400x320.jpg);
     background-repeat: no-repeat;
     position: relative;
-    height: 320px;
-    width: 400px;
-    margin: 1%;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     transition: box-shadow 0.3s ease-in-out;
+    margin: 2%;
 }
 
 .project:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
+#mainProject {
+    background-image: url(12-400x320.jpg);
+    height: 320px;
+    width: 400px;
+}
+#firstProject {
+    background-image: url(37-400x320.jpg);
+    height: 320px;
+    width: 400px;
+}
+#secondProject {
+    background-image: url(588-400x320.jpg);
+    height: 320px;
+    width: 400px;
+}
+#thirdProject {
+    background-image: url(866-400x320.jpg);
+    height: 320px;
+    width: 400px;
+}
+#fourthProject {
+    background-image: url(1019-400x320.jpg);
+    height: 320px;
+    width: 400px;
+}
+
 /* Styling for project captions */
 .caption {
     font-size: larger;
     padding: 7% 0% 0% 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #002A29;
 }
 
 /* Styling for footer bar */
@@ -100,3 +126,6 @@ footer {
     color: #C7CEDF;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+
+
+
