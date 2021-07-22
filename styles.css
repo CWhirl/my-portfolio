@@ -34,6 +34,8 @@ li a:hover {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    /* max one column */
+    flex-direction: column;
     padding: 1%;
     justify-content: center;
     align-items: center;
@@ -41,16 +43,31 @@ li a:hover {
     font-family: Verdana, sans-serif;
 }
 
+/* center text */
+.center {
+    text-align: center;
+}
+
+.seeThrough {
+    background-color: rgba(60, 55 ,68 , .6);
+}
+
 #introduction h1 {
+    width: 100%;
     font-size: 30px;
     margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgba(60, 55 ,68 , .6);
     color: #C7CEDF;
     padding: 2px;
 }
 
 #introduction p {
+    width: 100%;
     font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgba(60, 55 ,68 , .6);
     color: #C7CEDF;
     padding: 2px;
@@ -62,6 +79,7 @@ li a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     padding-top: 2%;
+    padding: 5%;
     justify-content: center;
 }
 
@@ -122,6 +140,10 @@ li a:hover {
 
 /* Styling for footer bar */
 footer {
+    /* keep footer at bottom of screen */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
